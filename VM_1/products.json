@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "Category": "Cakes",
+    "Name": "Balerina",
+    "Price": "16",
+    "InStock": 12
+  },
+  {
+    "Id": 2,
+    "Category": "Cakes",
+    "Name": "Oreo",
+    "Price": "20",
+    "InStock": 10
+  },
+  {
+    "Id": 3,
+    "Category": "Cakes",
+    "Name": "Kex",
+    "Price": "5",
+    "InStock": 20
+  },
+  {
+    "Id": 4,
+    "Category": "ChewingGum",
+    "Name": "Stimorol",
+    "Price": "45",
+    "InStock": 8
+  },
+  {
+    "Id": 5,
+    "Category": "ChewingGum",
+    "Name": "Extra",
+    "Price": "35",
+    "InStock": 19
+  },
+  {
+    "Id": 6,
+    "Category": "ChewingGum",
+    "Name": "Flux",
+    "Price": "22",
+    "InStock": 23
+  },
+  {
+    "Id": 7,
+    "Category": "Drinks",
+    "Name": "Cola",
+    "Price": "15",
+    "InStock": 16
+  },
+  {
+    "Id": 8,
+    "Category": "Drinks",
+    "Name": "Fanta",
+    "Price": "15",
+    "InStock": 16
+  },
+  {
+    "Id": 9,
+    "Category": "Drinks",
+    "Name": "Pepsi",
+    "Price": "15",
+    "InStock": 16
+  }
+]
