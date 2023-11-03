@@ -5,15 +5,15 @@ using VM_1;
 
 VendingMachineService vendingMachine = new VendingMachineService();
 
-        Product drink = new Drink { Id = 1, Name = "Farta", Price = 20, Flavor = "Orange" };
-        Product snack = new Snack { Id = 2, Name = "Chips", Price = 25, Description = "Potato chips with preservatives and chemicals" };
-        Product chocolate = new Chocolate { Id = 3, Name = "Rappaello", Price = 50, Type = "White chocolate coconut balls" };
+        Product drink = new Drink { Id = 1, Name = "Farta", Price = 120, Flavor = "Orange" };
+        Product snack = new Snack { Id = 2, Name = "Chips", Price = 150, Description = "Potato chips with preservatives and chemicals" };
+        Product chocolate = new Chocolate { Id = 3, Name = "Rappaello", Price = 250, Type = "White chocolate coconut balls" };
 
         vendingMachine.AddProduct(drink);
         vendingMachine.AddProduct(snack);
         vendingMachine.AddProduct(chocolate);
 
-        Console.WriteLine("Welcome Customer!");
+        Console.WriteLine("We welcome customers with sense of humor and ... big wallets!");
         Console.WriteLine("Choose among available products:");
         foreach (var productInfo in vendingMachine.ShowAll())
         {
