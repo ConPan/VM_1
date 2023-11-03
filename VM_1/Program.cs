@@ -6,7 +6,7 @@ using VM_1;
 VendingMachineService vendingMachine = new VendingMachineService();
 
         Product drink = new Drink { Id = 1, Name = "Farta", Price = 120, Flavor = "Orange" };
-        Product snack = new Snack { Id = 2, Name = "Chips", Price = 150, Description = "Potato chips with preservatives and chemicals" };
+        Product snack = new Snack { Id = 2, Name = "Chips", Price = 150, Description = "Potato chips with preservatives and chemicals, that move you one step closer to the Lady in Black" };
         Product chocolate = new Chocolate { Id = 3, Name = "Rappaello", Price = 250, Type = "White chocolate coconut balls" };
 
         vendingMachine.AddProduct(drink);
